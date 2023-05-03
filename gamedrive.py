@@ -1,5 +1,5 @@
-from game_classes.pirate import Pirate
-from game_classes.wookie import Wookie
+from classes.pirate import Pirate
+from classes.wookie import Wookie
 
 pirate = Pirate('Ahab', 45, 30, 30, 2.0, 4, '', '', True, True, True)
 wookie = Wookie('Chewie', 80, 5, 50, 1, 1, '', '')

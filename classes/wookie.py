@@ -2,10 +2,10 @@ from classes.wookie import Wookie
 
 class Pirate(Wookie):
 
-    def __init__(self, name, strength, speed, health, moxie, agility, buff, special, has_growl=False, has_droid=False, has_parrot=False):
+    def __init__(self, name, strength, speed, health, moxie, agility, buff, special, has_growl=False, has_blaster=False, has_droid=False):
         super().__init__(name, strength, speed, health, moxie, agility, buff, special)
         self.has_growl = has_growl 
-        self.has_blaster = has_droid
+        self.has_blaster = has_blaster
         self.has_droid = has_droid
 
     def show_stats( self ):
